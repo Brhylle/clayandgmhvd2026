@@ -83,7 +83,7 @@ const timelineEvents: TimelineEvent[] = [
     description: 'Even after you left Manila, our love has persisted and has become even stronger. We have been able to maintain our healthy relationship through unwavering communication, trust and understanding. I remember the day that you\'ve told me that you\'ve really hated Long-Distance Relationship, that was really scary when you\'ve said it, but I am glad that our love is much stronger than of the distance that we had, because of our commitment of worshipping God through Jesus Christ, this not only reinforced our love at great distance but also amplified the frequency in which we express our love. I am so proud of us, and I know that there will be more fights between us, but I hope that you\'ll stick with me until we have resolved it through proper communication and understanding. May our love grow fonder and stronger each day, and may we continue to cherish and support each other through every challenge that comes our way. I love you, Clay, and I am so grateful to have you in my life.',
     date: 'December 10, 2025 - Present',
     position: 'right',
-    images: ['/images/ldr1.jpg', '/images/ldr2.jpg', '/images/ldr3.jpg', '/images/ldr4.jpg'],
+    images: ['/images/ldr1.jpg', '/images/ldr5.jpg', '/images/ldr2.jpg', '/images/ldr6.jpg', '/images/ldr3.jpg', '/images/ldr7.jpg', '/images/ldr4.jpg'],
   },
 ]
 
