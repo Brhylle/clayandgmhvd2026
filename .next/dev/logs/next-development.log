@@ -1,0 +1,96 @@
+[00:00:01.345] Server  LOG     ✓ Ready in 905ms
+[00:00:08.200] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:08.453] Browser ERROR   The tag <%s> is unrecognized in this browser. If you meant to render a React component, start its name with an uppercase letter. image
+[00:00:08.453] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <button> button 
+
+  ...
+    <SegmentViewNode type="page" pagePath="/CRACK GAM...">
+      <SegmentTrieNode>
+      <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+        <Home params={Promise} searchParams={Promise}>
+          <main className="w-full ove...">
+            <LandingSection>
+            <TimelineSection>
+              <section id="timeline-s..." className="jsx-61807d...">
+                <div className="jsx-61807d...">
+                  <div>
+                  <div className="jsx-61807d...">
+                    <div>
+                    <div className="jsx-61807d...">
+                      <div>
+                      <div>
+                      <div>
+                      <div>
+                      <div className="jsx-61807d...">
+                        <div className="jsx-61807d...">
+                          <div className="jsx-61807d...">
+                            <div>
+                            <h3>
+                            <p>
+                            <div className="jsx-61807d...">
+>                             <button
+>                               onClick={function onClick}
+>                               className="jsx-61807d846ecb1b74 w-full transition-transform hover:scale-[1.02] relative"
+>                             >
+                                <ImageCarousel images={[...]} alt={"The Prom..."}>
+                                  <div className="relative h...">
+                                    <div>
+                                    <div>
+                                    <div>
+                                    <div className="absolute b...">
+>                                     <button
+>                                       onClick={function onClick}
+>                                       className="w-2 h-2 rounded-full transition-all bg-white w-6"
+>                                       aria-label="Go to image 1"
+>                                     >
+                                      ...
+                                ...
+                        ...
+                      ...
+                ...
+            ...
+    ...
+
+[00:00:08.453] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. button <button>
+[00:00:08.453] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="/CRACK GAM...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="w-full ove...">
+                        <LandingSection>
+                          <section className="relative m...">
+                            <audio>
+                            <ReactCanvasConfetti>
+                            <div className="absolute i...">
+                              <video>
++                             <image className="absolute inset-0 w-full h-full object-cover opacity-30">
+-                             <img className="absolute inset-0 w-full h-full object-cover opacity-30">
+                              ...
+                            ...
+                        ...
+                ...
+              ...
+
+[00:00:08.453] Browser LOG     {}
+[00:00:16.845] Server  ERROR   ⨯ "The requested resource isn't a valid image for" "/images/lablab.png" "received" null
