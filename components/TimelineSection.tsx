@@ -214,7 +214,7 @@ export default function TimelineSection() {
 
   return (
     <section id="timeline-section" className="relative py-20 md:py-32 px-4 bg-gradient-to-b from-secondary/40 to-background">
-                <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 z-0">
             <video
               autoPlay
               loop
@@ -222,7 +222,7 @@ export default function TimelineSection() {
               playsInline
               className="absolute inset-0 w-full h-full object-cover opacity-30"
             >
-              <source src="/videos/ldr.mov" type="video/mov" />
+              <source src="/videos/ldr.mp4" type="video/mp4" />
               <source src="/videos/timeline-background.webm" type="video/webm" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-b from-primary/20 to-secondary/30" />
