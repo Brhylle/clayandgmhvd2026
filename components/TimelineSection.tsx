@@ -214,10 +214,7 @@ export default function TimelineSection() {
 
   return (
     <section id="timeline-section" className="relative py-20 md:py-32 px-4 bg-gradient-to-b from-secondary/40 to-background">
-      <div className="max-w-4xl mx-auto">
-        {/* Section Title with Video Background */}
-        <div className="relative text-center mb-16 md:mb-24 animate-slide-in-left overflow-hidden rounded-2xl" style={{ animationDelay: '0.1s' }}>
-          <div className="absolute inset-0 z-0">
+                <div className="absolute inset-0 z-0">
             <video
               autoPlay
               loop
@@ -225,11 +222,15 @@ export default function TimelineSection() {
               playsInline
               className="absolute inset-0 w-full h-full object-cover opacity-30"
             >
-              <source src="/videos/second_date.mp4" type="video/mp4" />
+              <source src="/videos/ldr.mov" type="video/mov" />
               <source src="/videos/timeline-background.webm" type="video/webm" />
             </video>
             <div className="absolute inset-0 bg-gradient-to-b from-primary/20 to-secondary/30" />
           </div>
+      
+      <div className="max-w-4xl mx-auto">
+        {/* Section Title with Video Background */}
+        <div className="relative text-center mb-16 md:mb-24 animate-slide-in-left overflow-hidden rounded-2xl" style={{ animationDelay: '0.1s' }}>
 
           <div className="relative z-10 py-12 px-4">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -271,7 +272,7 @@ export default function TimelineSection() {
                         {index === 4 && '🪢'}
                         {index === 5 && '⛪'}
                         {index === 6 && '🔐'}
-                        {index === 7 && '🤗'}
+                        {index === 7 && '💗'}
                       </span>
                       <div className="text-sm font-semibold text-primary">{event.date}</div>
                     </div>
