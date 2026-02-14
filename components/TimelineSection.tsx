@@ -36,10 +36,10 @@ const timelineEvents: TimelineEvent[] = [
   {
     id: 3,
     title: 'Redemption Day',
-    description: 'This was just a plain day for me, because I am not expecting that you will be falling within my embrace. I honestly think that this day will come but not too soon, maybe God had intervene to let you know that my commitment and intention is pure. But after some realizations, we\'ve seen each other\'s side for quite a while now, and became comfortable as the time passes by. Even after the implicit rejection I have received, YOU have again implicitly admitted that you have fallen for me, good thing I have fed off too many romance anime and K-Drama before XD. I have never felt more happy and relieved than that day. That simple hint made my day, and I have never felt more loved and accepted. That day, I have seen the daylight on my 23rd dark night at the end of the tunnel, and thanked God, that your love is golden.',
+    description: 'This was just a plain day for me, because I am not expecting that you will be falling within my embrace. I honestly think that this day will come but not too soon, maybe God had intervene to let you know that my commitment and intention is pure. But after some realizations, we\'ve seen each other\'s side for quite a while now, and became comfortable as the time passes by. Even after the implicit rejection I have received, YOU have again implicitly admitted that you have liked me now, good thing I have fed off too many romance anime and K-Drama before XD. I have never felt more happy and relieved than that day. That simple hint made my day, and I have never felt more loved and accepted. That day, I have seen the daylight on my 23rd dark night at the end of the tunnel, and thanked God, that your love is golden.',
     date: 'November 30, 2025',
     position: 'left',
-    image: '/images/lablab.png',
+    image: '/images/lablab.jpg',
   },
   {
     id: 4,
